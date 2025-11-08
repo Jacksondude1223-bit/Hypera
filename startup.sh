@@ -24,12 +24,12 @@ EOF
 
 # Check that your CPU supports hardware virtualization
 if [ $(egrep -c '(vmx|svm)' /proc/cpuinfo) -eq 0 ]; then
-    echo -e "Arclight ERROR: ${bg_red} Your CPU does not support hardware virtualization ${clear}"
+    echo -e "Hypera ERROR: ${bg_red} Your CPU does not support hardware virtualization ${clear}"
     echo -e "${red}Please enable virtualization in your BIOS${clear}"
     echo -e "${red}Exiting...${clear}"
     exit 1
 
-    else echo -e "Arclight: ${bg_green} Your CPU supports hardware virtualization ${clear}"
+    else echo -e "Hypera: ${bg_green} Your CPU supports hardware virtualization ${clear}"
     echo -e "${green}Continuing Setup...${clear}"
     sleep 4
 fi
@@ -106,7 +106,7 @@ elif [ "$(lsb_release -a | grep -c 22.04)" -eq 2 ]; then
 EOF
     )
 else
-    echo -e "${red}Arclight ERROR: ${bg_red}Arclight is not supported on this Linux distribution${clear}"
+    echo -e "${red}Hypera ERROR: ${bg_red}Hypera is not supported on this Linux distribution${clear}"
     exit 1
 fi
 
@@ -145,12 +145,11 @@ cat <<"EOF"
 
        
 .--------------.    
-|   Finished!  |         |          /\  ._ _ | o  _  |_ _|_ 
-'--------------'         |         /--\ | (_ | | (_| | | |_ 
-      ^      (\_/)       |                        _|            
+|   Finished!  |         |          
+'--------------'         |          
+      ^      (\_/)       |                    
       '----- (O.o)       |  After adding Reverse Proxy & Encryption, You can access the web interface at:
-             (> <)       |  https://ip-address-of-machine/arclight
-
+             (> <)       |  https://ip-address-of-machine/hypera
 EOF
 #reboot the server to apply changes
 echo "The hypervisor needs to be rebooted in order to load the necessary packages. Do you want to reboot now? (y/n)"
