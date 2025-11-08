@@ -104,7 +104,7 @@ $_SESSION['hostname'] = $hostname;
   <meta name="author" content="">
   <link rel="icon" href="../assets/img/favicon.png">
 
-  <title>Arclight Dashboard - Login Page</title>
+  <title>Hypera Panel - Login Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
