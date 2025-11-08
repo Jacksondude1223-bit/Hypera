@@ -8,7 +8,6 @@ bg_green='\033[0;42m'
 
 echo -e "\n"
 cat <<"EOF"
-Here’s a boxed ASCII banner with Hypera and Virtualization Panel in the same panel:
 
 .--------------------------------------------.
 |   _   _                              _     |
