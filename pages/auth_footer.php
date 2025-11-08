@@ -10,20 +10,8 @@
             <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12"> Pricing </a>
           </div> -->
           <div class="flex-shrink-0 w-full max-w-full mx-auto mt-2 mb-6 text-center lg:flex-0 lg:w-8/12">
-            <a href="https://chatnaut.com/" target="_blank" class="mr-6 text-slate-400">
+            <a href="https://hypera.gg" target="_blank" class="mr-6 text-slate-400">
               <span class="text-size-lg fas fa-building"></span>
-            </a>
-
-            <a href="https://twitter.com/chatnaut" target="_blank" class="mr-6 text-slate-400">
-              <span class="text-size-lg fab fa-twitter"></span>
-            </a>
-
-            <a href="https://www.instagram.com/chatnaut/" target="_blank" class="mr-6 text-slate-400">
-              <span class="text-size-lg fab fa-instagram"></span>
-            </a>
-
-            <a href="https://github.com/Chatnaut" target="_blank" class="text-slate-400">
-              <span class="text-size-lg fab fa-github"></span>
             </a>
           </div>
         </div>
@@ -34,7 +22,7 @@
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              Chatnaut Cloud
+             Hypera Virtualization Panel (Spheres Hosting L.L.C.)
             </p>
           </div>
         </div>
