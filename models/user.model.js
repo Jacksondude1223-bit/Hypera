@@ -18,12 +18,12 @@ const UserSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: [roles.admin, roles.moderator, roles.client],
+        enum: [roles.admin, roles.moderator, role.reseller, roles.client],
         default: roles.client
     },
     status: {
         type: String,
-        enum: ['active', 'inactive'],
+        enum: ['active', 'inactive', 'Suspended'],
         default: 'inactive'
     }
 }, { timestamps: true });
